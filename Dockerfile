@@ -25,7 +25,7 @@ COPY . .
 RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
 # Exponer el puerto de Flask
-EXPOSE 5000
+EXPOSE 5001
 
 # Comando de inicio (modo QA/desarrollo)
 CMD ["python", "run.py"]

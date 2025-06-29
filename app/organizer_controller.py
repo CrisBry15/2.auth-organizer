@@ -1,5 +1,3 @@
-# app/organizer_controller.py
-
 from flask import request, jsonify
 from config import Config
 from app.utils import hash_password, validate_password
